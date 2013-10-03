@@ -1,0 +1,268 @@
+@primary_color: green;
+@site_nice_button_color:#0593dc;
+@site_nice_button_color_hover:#0192dd;
+
+@grey_1:#E0E0E0;
+@grey_2:#CCCCCC;
+@grey_3:#999999;
+@tan_1:#CDAF7E;
+@grey_4: #666666;
+@grey_5:#6F6F6F;
+
+@red_from_cloudFlare:#CC2929;
+
+
+@tan_complimentary_blue:#7c9bcc;
+
+@bar_background:black;
+
+#containerx{
+    width: 200px;
+    height:200px;
+    background:@primary_color;
+
+    a { 
+        color:red;
+}
+
+}
+
+#panel{
+p{
+font-weight:200;
+color:red;
+}
+}
+
+
+
+h4 ,panelHeader  {
+
+    color: darken(@tan_1,45%);
+color:@grey_5;
+    font-weight: 300;
+    font-size: 2.6rem;
+   
+
+
+
+}
+
+.quant{
+ font-weight: 500;
+ font-size: 2.2rem;
+//color:red;
+}
+.post{
+ font-weight: 400;
+ font-size: 2.2rem;
+font-style:italic;
+}
+.registration {
+
+  h1{
+ font-weight: 300;
+  font-size: 76px;
+  font-size: 4rem;
+  position: relative;
+  margin-bottom: 0;
+  }
+padding: 15px 20px 13px 20px;
+
+
+}
+
+/* ZURB bar */
+#zurBar {
+  background:  @bar_background;
+  border-bottom: solid 4px #F0D2AA;
+  padding: 15px 20px 13px 20px; }
+  
+
+@media handheld, only screen and (max-width: 767px) {
+	#zurBar { padding: 15px 0px 13px 0px; }
+}
+
+#zurBar h1, #zurBar h2 {
+  margin-bottom: 0;
+  line-height: 1; }
+#zurBar h1 {
+  color: white;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bold; }
+#zurBar h1 a { color: #fff; }
+#zurBar h1 a :hover{ color: lighten(@tan_complimentary_blue,20%); }
+  
+
+#zurBar strong { display: block; margin: 0; padding: 0; height: 14px; line-height: 14px; position: relative; bottom: 4px; }
+#zurBar strong a {
+  line-height: 14px;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 12px;
+}
+#zurBar strong a.button { padding: 4px 10px; font-weight: bold; margin-left: 5px; }
+
+/* Header */
+header {
+  text-align: center;
+  position: relative;
+  z-index: 30;
+  /*top: -645px;
+  margin-top: -605px;*/ }
+header h1 {
+  font-weight: 300;
+  font-size: 76px;
+  font-size: 7.6rem;
+  position: relative;
+  margin-bottom: 0; }
+header h1 small {
+  font-weight: normal;
+  font-size: 32px;
+  font-size: 3.2rem;
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  margin-left: -32px; }
+header h2 {
+  font-weight: 300;
+  font-size: 20px;
+  font-size: 2rem;
+font-size: 2.8rem;
+
+  margin-bottom: 34px;
+  padding: 0 23%; }
+header h2 strong {
+  display: block;
+}
+header .button.nice {
+  font-size: 19px;
+  font-size: 1.9rem;
+  background-position: 0 -20px;
+  padding-left: 25px;
+  padding-right: 25px; }
+header .button.nice small {
+  font-size: 11px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-shadow: none; }
+header p {
+  margin-top: 8px; }
+header p a {
+  margin-right: 20px;
+  font-size: 12px;
+  font-size: 1.2rem; }
+header p a + a {
+  margin-right: 0; }
+header img {
+  margin-top: 7px; }
+
+/* Footer */
+footer.row {
+ // margin-top: 80px;
+  border-top: solid 1px #e6e6e6;
+  padding-top: 20px; }
+footer.row h6 {
+  color: darken(#6f6f6f,20%);
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin-bottom: 4px; }
+footer.row p {
+  color: #626262;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 18px; }
+footer.row a {
+  color: #222222; }
+footer.row a:hover {
+  text-decoration: underline; }
+
+
+
+
+
+
+	/* Colors ---------- */
+	.blue.button			{ background-color: #00a6fc; }
+	.red.button			{ background-color: #e91c21; }
+	.white.button			{ background-color: #e9e9e9; color: #333; }
+	.black.button			{ background-color: #141414; }
+	.green.button			{ background-color: #5b8737; }
+	
+	/* Nice Colors ---------- */
+	.nice.blue.button		{ border: 1px solid #0593dc; }
+	.nice.red.button		{ border: 1px solid #b90b0b; }
+	.nice.white.button		{ border: 1px solid #cacaca; text-shadow: none !important; }
+	.nice.black.button		{ border: 1px solid #000; }
+	.nice.green.button		{ border: 1px solid #4a6b2d; }
+	
+	/* Hovers ---------- */
+	.button:hover, .button:focus 				{ background-color: #0192dd; color: #fff; }
+	.blue.button:hover, .blue.button:focus		{ background-color: #0192dd; }
+	.red.button:hover, .red.button:focus 		{ background-color: #d01217; }
+	.white.button:hover, .white.button:focus	{ background-color: #dadada; color: #333; }
+	.black.button:hover, .black.button:focus	{ background-color: #000; }
+	.green.button:hover, .green.button:focus	{ background-color: #699c40; }	
+
+
+/*    --------------------------------------------------
+    Labels
+    -------------------------------------------------- */
+
+	.label { padding: 0 4px 2px; font-size: 11px; font-weight: bold; text-align: center; text-decoration: none; line-height: 1;  white-space: nowrap; display: inline; position: relative; bottom: 1px; color: #fff; background: #00a6fc; }
+	.label.radius { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+	.label.round { padding: 1px 7px 2px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+	
+	/* Colors ---------- */
+	.blue.label				{ background-color: #00a6fc; }
+	.red.label				{ background-color: #e91c21; }
+	.green.label			{ background-color: #7fae00; }
+	.white.label			{ background-color: #e9e9e9; color: #333; }
+	.black.label			{ background-color: #141414; }
+	
+
+// changes here
+
+    .blue.button			{ background-color: @tan_1; }
+    .nice.blue.button                   { border: 1px solid @tan_1; }
+    .blue.button:hover, .blue.button:focus { background-color: darken(desaturate(@tan_1, 10%), 10%); }
+    .blue.label				{ background-color: #00a6fc; }
+
+    footer.row p {
+  color: #626262;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 18px; }
+
+
+
+.form_error, .error {
+    background-color:#FFFE36;
+    background-color:transparent;
+
+    
+
+    border:1px solid #E1E16D;
+    font-size:13px;
+    color:#000;
+    color:@red_from_cloudFlare;
+    padding:3px 10px;
+    margin-right:3px;
+
+
+    /* CSS3 spicing for mozilla and webkit */
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-topleft:0;
+    -webkit-border-bottom-left-radius:0;
+    -webkit-border-top-left-radius:0;
+
+    -moz-box-shadow:0 0 6px #ddd;
+    -webkit-box-shadow:0 0 6px #ddd;
+}
+
+input.input-text, textarea {
+    color: #555;
+}
